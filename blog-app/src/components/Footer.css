@@ -1,0 +1,36 @@
+.container_footer {
+  height: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  justify-content: space-between;
+}
+
+p {
+  font-weight: 500;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Apply styles for screens with a maximum width of 600px */
+  .container_footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social {
+    margin-top: 10px; /* Add margin for better spacing in mobile view */
+  }
+}

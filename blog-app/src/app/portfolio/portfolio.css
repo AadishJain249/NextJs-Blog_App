@@ -1,0 +1,66 @@
+.mainTitle {
+    font-size: 100px;
+  }
+  
+  .port_container {
+  }
+  
+  .port_selectTitle {
+    margin: 20px 0px;
+  }
+  
+  .port_items {
+    display: flex;
+    gap: 20px; /* Adjust the gap as needed */
+    flex-wrap: wrap; /* Enable wrapping for small screens */
+  }
+  
+  .port_item {
+    border: 5px solid #bbb;
+    border-radius: 5px;
+    width: 100%; /* Make items take full width on small screens */
+    max-width: 400px; /* Set a maximum width for larger screens */
+    height: 400px;
+    position: relative;
+    background-size: cover !important;
+  }
+  
+  .port_item:nth-child(1) {
+    background: url("https://img.lovepik.com/free-png/20210927/lovepik-office-meeting-scene-business-illustration-png-image_401534187_wh1200.png");
+  }
+  
+  .port_item:nth-child(2) {
+    background: url("https://img.lovepik.com/free-png/20210927/lovepik-office-meeting-scene-business-illustration-png-image_401534187_wh1200.png");
+  }
+  
+  .port_item:nth-child(3) {
+    background: url("https://img.lovepik.com/free-png/20210927/lovepik-office-meeting-scene-business-illustration-png-image_401534187_wh1200.png");
+  }
+  
+  .port_title {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 24px; /* Adjust font size for smaller screens */
+    font-weight: bold;
+  }
+  
+  /* Media query for screens with a maximum width of 600px */
+  @media (max-width: 600px) {
+    .port_item {
+      height: auto; /* Adjust the height for smaller screens */
+    }
+  
+    .port_title {
+      font-size: 14px; /* Further adjust font size for smaller screens */
+    }
+  }
+  @media (max-width: 400px) {
+    .port_item {
+      height: 120px; /* Adjust the height for even smaller screens */
+    }
+  
+    .port_title {
+      font-size: 12px; /* Further adjust font size for even smaller screens */
+    }
+  }
